@@ -413,6 +413,3 @@ def yiqingchaxun(area: str):
                 )
     except:
         return "没有查询到哦，只支持国内地级市以上的地区"
-
-if __name__ == '__main__':
-    print(yiqingchaxun('美国'))
